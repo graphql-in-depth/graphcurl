@@ -1,0 +1,53 @@
+# Options: https://prettier.io/docs/en/options.html
+# Format:  https://github.com/davidtheclark/cosmiconfig#cosmiconfig
+
+# Common options
+
+printWidth: 120
+endOfLine: 'lf'
+
+# JavaScript options
+
+semi: false
+singleQuote: true # Except JSX, where double quotes are always used.
+trailingComma: all # Except TypeScript interfaces, where it's disabled for disambiguation.
+
+# Custom file type options
+
+overrides:
+  - files: '*.@(js|jsx)'
+    options:
+      # parser: babel
+
+  - files: '*.@(ts|tsx)'
+    options:
+      # parser: typescript
+
+  - files: '*.@(gql|graphql)'
+    options:
+      # parser: graphql
+
+  - files: '*.@(md|markdown)'
+    options:
+      # parser: markdown
+      # parser: mdx
+
+  - files: '*.json'
+    options:
+      # parser: json
+      # parser: json5
+
+  - files: '*.@(yml|yaml)'
+    options:
+      # parser: yaml
+
+  - files: '*.html'
+    options:
+      # parser: html
+      # parser: lwc
+
+  - files: '*.@(c|le|sa|sc)ss'
+    options:
+      # parser: css
+      # parser: less
+      # parser: scss

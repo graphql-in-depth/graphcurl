@@ -1,0 +1,8 @@
+# Format: https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+
+.*
+*.log
+*.log.*
+*.lock
+
+/node_modules/

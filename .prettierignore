@@ -1,0 +1,21 @@
+# Format: https://git-scm.com/docs/gitignore#_pattern_format
+
+*
+!src
+!src/**/
+!*.js
+!*.jsx
+!*.ts
+!*.tsx
+!*.gql
+!*.graphql
+!*.md
+!*.markdown
+!*.json
+!*.yml
+!*.yaml
+!*.html
+!*.css
+!*.less
+!*.sass
+!*.scss
