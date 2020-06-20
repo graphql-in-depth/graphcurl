@@ -1,6 +1,10 @@
 # Graphcurl
 
-GraphQL cURL-like command line client with #import support
+GraphQL curl-like command-line client
+
+[![Version](https://img.shields.io/npm/v/graphcurl.svg)](https://npmjs.org/package/graphcurl)
+[![Downloads/week](https://img.shields.io/npm/dw/graphcurl.svg)](https://npmjs.org/package/graphcurl)
+[![License](https://img.shields.io/npm/l/graphcurl.svg)](https://github.com/graphql-in-depth/graphcurl/blob/master/LICENSE)
 
 ## Getting Started
 
