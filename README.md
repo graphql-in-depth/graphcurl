@@ -42,9 +42,14 @@ Options:
 ## Roadmap
 
 - [x] Implement working prototype
-- [ ] Set default query variable value from environment and .env
-- [ ] Select endpoints from [GraphQL Config](https://graphql-config.com), [Prisma config extension](https://github.com/prisma-labs/graphql-config-extension-prisma), and [Apollo config](https://www.apollographql.com/docs/references/apollo-config/)
+- [ ] Support automatic/whitelisted persisted queries
+- [ ] Select operation from a file that contains multiple queries/mutations
+- [ ] Send multiplied operation in single request for array json/yaml data
+- [ ] Load array data from csv with header
+- [ ] Select default/environment endpoints from [GraphQL Config](https://graphql-config.com), [Prisma config extension](https://github.com/prisma-labs/graphql-config-extension-prisma), and [Apollo config](https://www.apollographql.com/docs/references/apollo-config/)
+- [ ] Use default paths for graphql files from extended GraphQL Config
 - [ ] Cleanup code
+- [ ] Rewrite to TypeScript
 
 ## Development
 
