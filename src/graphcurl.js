@@ -64,7 +64,7 @@ try {
 
   log.debug('Options', options.opts())
 
-  if (options.args.length) usage(`Unused arguments: ${args.join(' ')}`)
+  if (options.args.length) usage(`Unused arguments: ${options.args.join(' ')}`)
   if ([options.query, ...options.data, options.header].filter(isStdIn).length > 1)
     usage('At most one of --query, --data, --header options may read from <stdin>')
 
