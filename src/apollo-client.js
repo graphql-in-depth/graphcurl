@@ -16,7 +16,9 @@ const getErrorMessage = ({ graphQLErrors, networkError, operation }) =>
     networkError.message.replace(/\.$/, '')}${
     graphQLErrors && graphQLErrors.length ? `:\n${graphQLErrors.map(({ message }) => message).join('\n')}` : ''
   }${operation ? `\n@ ${operation.operationName}` : ''}${
-    operation && operation.variables && Object.keys(operation.variables).length ? `(${inspect(operation.variables)})` : ''
+    operation && operation.variables && Object.keys(operation.variables).length
+      ? `(${inspect(operation.variables)})`
+      : ''
   }`
 
 const createClient = (uri, { wsUri, wsOptions, cache, headers, log } = {}) => {
